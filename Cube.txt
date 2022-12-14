@@ -1,7 +1,7 @@
 46	//THE CUBE
 47	var cubeTransform = new Transform{Translation = new float3(0,0,50)};
 48	var CubeEffect = MakeEffect.FromDiffuseSpecular((float4)ColorUint.Blue);
-49	va CubeMesh = new CuboidMesh(new float3(10,10,10));
+49	var CubeMesh = new CuboidMesh(new float3(10,10,10));
 50
 51	var cubeNode = new SceneNode();
 52	cubeNode.Components.Add(cubeTransform);
