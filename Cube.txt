@@ -11,4 +11,4 @@
 56	//Create the scene containing the cube as the only object
 57	_scene = new SceneContainer();
 58	_scene.Children.Add(cameraNode);
-59	_scene.Children.Add(cubeNode)
+59	_scene.Children.Add(cubeNode);
