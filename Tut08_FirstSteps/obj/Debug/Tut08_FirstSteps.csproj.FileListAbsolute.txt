@@ -1,0 +1,12 @@
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\bin\Debug\Tut08_FirstSteps.deps.json
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\bin\Debug\Tut08_FirstSteps.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\bin\Debug\Tut08_FirstSteps.pdb
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\Tut08_FirstSteps.csproj.AssemblyReference.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\Tut08_FirstSteps.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\Tut08_FirstSteps.AssemblyInfoInputs.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\Tut08_FirstSteps.AssemblyInfo.cs
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\Tut08_FirstSteps.csproj.CoreCompileInputs.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\Tut08_FirstSteps.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\refint\Tut08_FirstSteps.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\Tut08_FirstSteps.pdb
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut08_FirstSteps\obj\Debug\ref\Tut08_FirstSteps.dll
