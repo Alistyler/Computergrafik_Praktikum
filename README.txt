@@ -1,6 +1,6 @@
 Hier sind die finalen Versionen der jeweilgen Uebungen. 
 Die Engine ist eine hochschulinterne Engine namens Fusee3d. 
-Die verwendete Sprache is C#.
+Die verwendete Sprache ist C#.
 
 Nähere Informationen zu Fusee3d gibt es auf https://fusee3d.org
 
