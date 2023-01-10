@@ -1,0 +1,12 @@
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\bin\Debug\Tut09_HierarchyAndInput.deps.json
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\bin\Debug\Tut09_HierarchyAndInput.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\bin\Debug\Tut09_HierarchyAndInput.pdb
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.csproj.AssemblyReference.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.AssemblyInfoInputs.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.AssemblyInfo.cs
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.csproj.CoreCompileInputs.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\refint\Tut09_HierarchyAndInput.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\Tut09_HierarchyAndInput.pdb
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut09_HierarchyAndInput\obj\Debug\ref\Tut09_HierarchyAndInput.dll
