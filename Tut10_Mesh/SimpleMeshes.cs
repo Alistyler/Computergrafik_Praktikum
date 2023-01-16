@@ -147,11 +147,25 @@ namespace FuseeApp
             }
 
             // Letztes Dreieck im tris Array eintragen (letzter Punkt mit ersten Punkt und Mittelpunkt)
-            tris[(segments * 3) - 2] = tris[segments * 3 - 1];
-            tris[(segments * 3) - 1] = tris[0];
+            tris[(segments * 3) - 1] = (uint) segments;
+            tris[(segments * 3) - 2] = (uint) 0;
+            tris[(segments * 3) - 3] = (uint) (segments - 1);
+
+            /* Verts            Norms
+                Kreis oben      Normal nach oben
+                Kreis oben      Normal zur Seite
+                Kreis unten     Normal zur Seite
+                Kreis unten     Normal nach unten
+                Und von vorn    Und von vorn
+            */
+
+            /* Tris (Für vier Dreiecke(einen oben, zwei an der Seite*, einen unten) braucht man 12 Einträge beginnend mit i = 1 *Ein Viereck ergibt sich aus zwei Dreiecke*/
+
+            //Erster Array Eintrag: (0, h/2, 0), Normals: (0, 1, 0)
+            //Letzter Array Eintrag (0, -(h/2). 0), Normals: (0, -1, 0)
 
 
-
+            // Verschiebe alles zu den richtigen Mesh Variablen
             Vertices = new MeshAttributes<float3>(verts);
             Normals = new MeshAttributes<float3>(norms);
             Triangles = new MeshAttributes<uint>(tris);

@@ -91,6 +91,8 @@ namespace FuseeApp
 
             // Create a scene renderer holding the scene above
             _sceneRenderer = new SceneRendererForward(_scene);
+
+            // RC.SetRenderState(RenderState.FillMode, (uint)FillMode.wireframe, true);
         }
 
         // RenderAFrame is called once a frame
