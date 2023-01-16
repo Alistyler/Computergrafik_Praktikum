@@ -66,7 +66,7 @@ namespace FuseeApp
                             MakeEffect.FromDiffuseSpecular((float4) ColorUint.LightGrey),
 
                             // MESH COMPONENT
-                            new CylinderMesh(5, 10, 6)>
+                            new CylinderMesh(5, 10, 8)
 
                             /*Triangles: Ein Würfel hat 6 Faces. Diese Faces lassen sich in Triangles (Dreiecke) aufteilen, weil die Grafikkarte so funktioniert. Hier sind 36 Triangles.
                                          Die Werte von den Triangles sind Verweise auf die Indezes der Vertices. Drei Werte bilden einen Dreieck.

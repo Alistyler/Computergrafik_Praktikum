@@ -120,31 +120,35 @@ namespace FuseeApp
         public CylinderMesh(float radius, float height, int segments) 
         { 
             // Speicherplätze für Vertices, Normals und Trainagles reservieren
-            float3[] verts = new float3[segments/* ?? */];
-            flaot3[] norms = new float3[segments/* ?? */];
-            uint[] tris = new uint[segments/* ?? */];
+            float3[] verts = new float3[segments+1];
+            float3[] norms = new float3[segments+1];
+            uint[] tris = new uint[segments * 3];
 
             // Punkt auf der x - Achse als ersten Punkt in den Array
             verts[0] = new float3(radius, 0, 0);
-            norms[0] = new flaot3(0, 1, 0);
+            norms[0] = new float3(0, 1, 0);
             
             // Punkt in der Mitte des Kreises als letzten Punkt in den Array 
-            verts[segments - 1/* an letzter Stelle im Array */] = new float3(0, 0, 0);
-            norms[segments - 1 /* an letzter Stelle im Array */] = new flaot3(0, 1, 0);
+            verts[segments] = new float3(0, 0, 0);
+            norms[segments] = new float3(0, 1, 0);
 
-            for(int i = 1; i < segments, i++)
+            float delta = 2 * M.Pi / segments;
+
+            for(int i = 1; i < segments; i++)
             {
                 // Ein neuer Punkt auf Kreisfläche hinzufügen
-                verts[i] = new float3(radius * Math.Cos(i * Math.delta)/* x - Koordinate auf dem Kreis */, 0, radius * Math.Sin(i * Math.delta)/* z - Koordinate auf dem Kreis */);
-                norms[i] = new flaot3(0, 1, 0);
+                verts[i] = new float3(radius * (float) Math.Cos(i * delta), 0, radius * (float) Math.Sin(i * delta));
+                norms[i] = new float3(0, 1, 0);
 
                 // Ein neues Dreieck (Kuchenstück) einfügen
-                tris[(i - 1) * 3 + 0] = 0; // Vertex, der im vorangegangenen Schleifendurchlauf (i - 1) eingfürgt wurde.
-                tris[(i - 1) * 3 + 1] = 1; // Vertex, der im aktuellen Schleifendurchlauf (i) eingefügt wurde
-                tris[(i - 1) * 3 + 2] = 2; // Allerletzter Punkt im Vertex - Array
+                tris[3 * i - 1] = (uint) segments; // Vertex, der im vorangegangenen Schleifendurchlauf (i - 1) eingfürgt wurde.
+                tris[3 * i - 2] = (uint) i; // Vertex, der im aktuellen Schleifendurchlauf (i) eingefügt wurde
+                tris[3 * i - 3] = (uint) (i - 1); // Allerletzter Punkt im Vertex - Array
             }
 
             // Letztes Dreieck im tris Array eintragen (letzter Punkt mit ersten Punkt und Mittelpunkt)
+            tris[(segments * 3) - 2] = tris[segments * 3 - 1];
+            tris[(segments * 3) - 1] = tris[0];
 
 
 

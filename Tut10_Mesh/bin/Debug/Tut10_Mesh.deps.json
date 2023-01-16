@@ -1,0 +1,758 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Tut10_Mesh/1.0.0": {
+        "dependencies": {
+          "Fusee.Desktop": "0.13.0"
+        },
+        "runtime": {
+          "Tut10_Mesh.dll": {}
+        }
+      },
+      "CommunityToolkit.Diagnostics/8.0.0": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Diagnostics.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.1"
+          }
+        }
+      },
+      "Fusee.Base.Common/0.13.0": {
+        "dependencies": {
+          "Fusee.Math.Core": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Base.Common.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Base.Core/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Math.Core": "0.13.0",
+          "Microsoft.Extensions.Caching.Memory": "7.0.0",
+          "SixLabors.Fonts": "1.0.0-beta19",
+          "SixLabors.ImageSharp": "2.1.3",
+          "SixLabors.ImageSharp.Drawing": "1.0.0-beta15"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Base.Core.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Base.Imp.Desktop/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Base.Core": "0.13.0",
+          "Fusee.Math.Core": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Base.Imp.Desktop.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Core/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Base.Core": "0.13.0",
+          "Fusee.Engine.Common": "0.13.0",
+          "Fusee.Engine.Core": "0.13.0",
+          "Fusee.Engine.Gui": "0.13.0",
+          "Fusee.Jometri": "0.13.0",
+          "Fusee.Math.Core": "0.13.0",
+          "Fusee.Serialization": "0.13.0",
+          "Fusee.Xene": "0.13.0",
+          "Fusee.Xirkit": "0.13.0"
+        }
+      },
+      "Fusee.Desktop/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Imp.Desktop": "0.13.0",
+          "Fusee.Core": "0.13.0",
+          "Fusee.Engine.Imp.Graphics.Desktop": "0.13.0"
+        }
+      },
+      "Fusee.Engine.Common/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Math.Core": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Engine.Common.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Engine.Core/0.13.0": {
+        "dependencies": {
+          "CommunityToolkit.Diagnostics": "8.0.0",
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Base.Core": "0.13.0",
+          "Fusee.Engine.Common": "0.13.0",
+          "Fusee.Jometri": "0.13.0",
+          "Fusee.Math.Core": "0.13.0",
+          "Fusee.Serialization": "0.13.0",
+          "Fusee.Xene": "0.13.0",
+          "Fusee.Xirkit": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Engine.Core.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Engine.Gui/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Base.Core": "0.13.0",
+          "Fusee.Engine.Common": "0.13.0",
+          "Fusee.Engine.Core": "0.13.0",
+          "Fusee.Jometri": "0.13.0",
+          "Fusee.Math.Core": "0.13.0",
+          "Fusee.Xene": "0.13.0",
+          "Fusee.Xirkit": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Engine.Gui.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Engine.Imp.Graphics.Desktop/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Base.Core": "0.13.0",
+          "Fusee.Engine.Common": "0.13.0",
+          "Fusee.Engine.Core": "0.13.0",
+          "Fusee.Math.Core": "0.13.0",
+          "OpenTK": "4.7.5"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Engine.Imp.Graphics.Desktop.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Jometri/0.13.0": {
+        "dependencies": {
+          "Fusee.Math.Core": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Jometri.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Math.Core/0.13.0": {
+        "dependencies": {
+          "protobuf-net": "3.1.25"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Math.Core.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Serialization/0.13.0": {
+        "dependencies": {
+          "Fusee.Base.Common": "0.13.0",
+          "Fusee.Math.Core": "0.13.0",
+          "Fusee.Xene": "0.13.0",
+          "protobuf-net": "3.1.25"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Serialization.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Xene/0.13.0": {
+        "dependencies": {
+          "Fusee.Engine.Common": "0.13.0",
+          "Fusee.Math.Core": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Xene.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Fusee.Xirkit/0.13.0": {
+        "dependencies": {
+          "Fusee.Math.Core": "0.13.0"
+        },
+        "runtime": {
+          "lib/net7.0/Fusee.Xirkit.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Options": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0": {
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "OpenTK/4.7.5": {
+        "dependencies": {
+          "OpenTK.Compute": "4.7.5",
+          "OpenTK.Core": "4.7.5",
+          "OpenTK.Graphics": "4.7.5",
+          "OpenTK.Input": "4.7.5",
+          "OpenTK.Mathematics": "4.7.5",
+          "OpenTK.OpenAL": "4.7.5",
+          "OpenTK.Windowing.Common": "4.7.5",
+          "OpenTK.Windowing.Desktop": "4.7.5",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.7.5"
+        }
+      },
+      "OpenTK.Compute/4.7.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Compute.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Core/4.7.5": {
+        "runtime": {
+          "lib/netstandard2.1/OpenTK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Graphics/4.7.5": {
+        "dependencies": {
+          "OpenTK.Core": "4.7.5",
+          "OpenTK.Mathematics": "4.7.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Graphics.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Input/4.7.5": {
+        "runtime": {
+          "lib/netstandard2.0/OpenTK.Input.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Mathematics/4.7.5": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Mathematics.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.OpenAL/4.7.5": {
+        "dependencies": {
+          "OpenTK.Core": "4.7.5",
+          "OpenTK.Mathematics": "4.7.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.OpenAL.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.redist.glfw/3.3.8.30": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libglfw.so.3.3": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libglfw.3.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libglfw.3.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/glfw3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/glfw3.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.Common/4.7.5": {
+        "dependencies": {
+          "OpenTK.Core": "4.7.5",
+          "OpenTK.Mathematics": "4.7.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Common.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.Desktop/4.7.5": {
+        "dependencies": {
+          "OpenTK.Core": "4.7.5",
+          "OpenTK.Mathematics": "4.7.5",
+          "OpenTK.Windowing.Common": "4.7.5",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.7.5"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "OpenTK.Windowing.GraphicsLibraryFramework/4.7.5": {
+        "dependencies": {
+          "OpenTK.Core": "4.7.5",
+          "OpenTK.redist.glfw": "3.3.8.30"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "protobuf-net/3.1.25": {
+        "dependencies": {
+          "protobuf-net.Core": "3.1.25"
+        },
+        "runtime": {
+          "lib/net6.0/protobuf-net.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.25.24892"
+          }
+        }
+      },
+      "protobuf-net.Core/3.1.25": {
+        "runtime": {
+          "lib/net6.0/protobuf-net.Core.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.1.25.24892"
+          }
+        }
+      },
+      "SixLabors.Fonts/1.0.0-beta19": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.Fonts.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/2.1.3": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.3.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
+        "dependencies": {
+          "SixLabors.Fonts": "1.0.0-beta19",
+          "SixLabors.ImageSharp": "2.1.3"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.Drawing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "System.Text.Encoding.CodePages/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tut10_Mesh/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommunityToolkit.Diagnostics/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wzjy3iA+7qjoL6t89Zhn3qsF9u2linoGEad/sl/MG4i8p8ZnItv3xZ+2/mbIwxwq5u1UdJ0+ZVqMe1wfdV4QRQ==",
+      "path": "communitytoolkit.diagnostics/8.0.0",
+      "hashPath": "communitytoolkit.diagnostics.8.0.0.nupkg.sha512"
+    },
+    "Fusee.Base.Common/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-80XlEzDYp5zH5W6x2sPColZ8EJRuam2oUOg+shUEgjxbrSxopvYY9G7QODT/JTBeVv9xZJ5n8V0X8HBXWd+Zsg==",
+      "path": "fusee.base.common/0.13.0",
+      "hashPath": "fusee.base.common.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Base.Core/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uclurBVa9FU4s4tilvuaS8knW2X0WSrlT4W3HlpVlCeBWkgEFHSxnUEeNTjVm+GtZbZOaGOW7u0/V1j3Q6q+Zw==",
+      "path": "fusee.base.core/0.13.0",
+      "hashPath": "fusee.base.core.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Base.Imp.Desktop/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LukFZNStvZS/heje5xHCimpmL8cwUnzdU9XcBkP/L3+8kjwEJlma8hL1kgyo/IW8YZdx8+1UNJs21m7iodmveA==",
+      "path": "fusee.base.imp.desktop/0.13.0",
+      "hashPath": "fusee.base.imp.desktop.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Core/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KyUImoPYr1Gb0tsTwUOJAiuSduEesTFeFFGbEGUETPw1TNkuflCGRTzZ4GDRbPSjrL9Facec2r77PqsKKVh6fQ==",
+      "path": "fusee.core/0.13.0",
+      "hashPath": "fusee.core.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Desktop/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0MiMulVpkbSzaGa8Az+NQA645ITlp8TWojcwYq7jMSI2wZOQoL4PuyF+pnhkwQuM7ZXc9G1Hn85jufLB+szdgA==",
+      "path": "fusee.desktop/0.13.0",
+      "hashPath": "fusee.desktop.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Engine.Common/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/YipQZzXUCpY2oDk1/jOZ5rFnTHX2hLgrNV5pc8GNBvySsdDikJ6zTaetnSvpQVIQ0Ztnrqojnhm5iIlY3HoDw==",
+      "path": "fusee.engine.common/0.13.0",
+      "hashPath": "fusee.engine.common.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Engine.Core/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+M4gc2x6kR/9GkpR/l5BK47Z6PvR7hIfKNdm6EXoHdD7y3cZnIktn2kJ923sIOT44gfHPrfBOI+38nhn3z1iYw==",
+      "path": "fusee.engine.core/0.13.0",
+      "hashPath": "fusee.engine.core.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Engine.Gui/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LHUQAMpHGTHf8PB1VMoqSKxClUSXCNzQ//WEETQ/vk33Ji7o2hmI+ZPnj2j1ssrahQVV0bZMLtiWYgDnd7AgbA==",
+      "path": "fusee.engine.gui/0.13.0",
+      "hashPath": "fusee.engine.gui.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Engine.Imp.Graphics.Desktop/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vShpXhLyNnDF2mkFG5VBGquQed8zErsxl3thUORjynnW2UpsCoFKvMKy4/uwHfJjUvO3+q0yoJiskbuqlxrnMA==",
+      "path": "fusee.engine.imp.graphics.desktop/0.13.0",
+      "hashPath": "fusee.engine.imp.graphics.desktop.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Jometri/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1ZVvW5N6seivcagLXAjG2ha9gmNrMUONayrWhCZtOwE/TkdIswKjGO3rKv+lf+voAWqJD15Bgy1dBa63kCBJ8w==",
+      "path": "fusee.jometri/0.13.0",
+      "hashPath": "fusee.jometri.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Math.Core/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2HTLffsT3hnnnNQGFDSaQP/HCd3qC1RN2qdHtEqwE/XqCbqKl9Uak5NPJhRNQfEWysFVF103gmFyAoixGbNMWg==",
+      "path": "fusee.math.core/0.13.0",
+      "hashPath": "fusee.math.core.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Serialization/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uMljhNl2QTixiaoVyazu9Vhzl3ieHjUrLwIZ21U3A94wLZzxIzo6VfJGFSxVYWAdg14HUyQEzEgAmgV4fwe/XA==",
+      "path": "fusee.serialization/0.13.0",
+      "hashPath": "fusee.serialization.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Xene/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8/qrIA6QZAo1nlyo6BQiO3CvcPtDaA8pZhMlNSiTkGwXDxcOmQRzQjN8STgWVI2zfd2f+xHcByDIyscbRlf/w==",
+      "path": "fusee.xene/0.13.0",
+      "hashPath": "fusee.xene.0.13.0.nupkg.sha512"
+    },
+    "Fusee.Xirkit/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DOYjR1SKMFIC67XJPnUAjwLI82Gc2x9nRmGNkigYsdQqJs21sJ79DV1HBasxwVt+9lROgXd3fui9Brzo+Iwv8g==",
+      "path": "fusee.xirkit/0.13.0",
+      "hashPath": "fusee.xirkit.0.13.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IeimUd0TNbhB4ded3AbgBLQv2SnsiVugDyGV1MvspQFVlA07nDC7Zul7kcwH5jWN3JiTcp/ySE83AIJo8yfKjg==",
+      "path": "microsoft.extensions.caching.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xpidBs2KCE2gw1JrD0quHE72kvCaI3xFql5/Peb2GRtUuZX+dYPoK/NTdVMiM67Svym0M0Df9A3xyU0FbMQhHw==",
+      "path": "microsoft.extensions.caching.memory/7.0.0",
+      "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kmn78+LPVMOWeITUjIlfxUPDsI0R6G0RkeAMBmQxAJ7vBJn4q2dTva7pWi65ceN5vPGjJ9q/Uae2WKgvfktJAw==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
+      "path": "microsoft.extensions.options/7.0.0",
+      "hashPath": "microsoft.extensions.options.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "OpenTK/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eFcD4adeP+bTOfjFT44K8gJxr9CabE/F3tQgFkQdHvOb+xI3ynWZ8m0MNZ5vwhTAVSKWFCv12pC5lMhFPAYYOQ==",
+      "path": "opentk/4.7.5",
+      "hashPath": "opentk.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.Compute/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vd/ZSX2d/WeAJiPXPXkf823CjOtFKBkcQKu1gYiQYYy6xx5Hv7nUt50t+X/1ZEph54hJBtVFi/ePtvMpIss6VQ==",
+      "path": "opentk.compute/4.7.5",
+      "hashPath": "opentk.compute.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.Core/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qRnNUImMQexp0dezp70XkD/DV5lOpDXou+wzYM79u1F4c986hmIK5SyM5gRlVZBPYdSLv1lhSPpEPIcJrWGKRg==",
+      "path": "opentk.core/4.7.5",
+      "hashPath": "opentk.core.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.Graphics/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8PrVCl/C7v9LUO/3dwXzqfAkp/QnCdQBY62a7VT53cXCEuj/RwkQijDMp3TxOuOhLvUSyIbyt/MFa2yxqmoRUQ==",
+      "path": "opentk.graphics/4.7.5",
+      "hashPath": "opentk.graphics.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.Input/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tV2QVTzfRsaCUa1oLThiEoEq0Rj/XDE0pNCWjh6mJeziv6+lxsOy+3BvK3n5G1nnA41P0+ZwRFdyhjcZqVLy/g==",
+      "path": "opentk.input/4.7.5",
+      "hashPath": "opentk.input.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.Mathematics/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTdhfAMe+eeIu31OTgJ9UwHK14L2hMxigx9wduANBM7eKZwEd6V+cFhzobJJXzc1RjX/weBB6wVcKg6u9XJVQw==",
+      "path": "opentk.mathematics/4.7.5",
+      "hashPath": "opentk.mathematics.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.OpenAL/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o0jEaAJnCZytgs17TbmJGRpyrOAfShyDz7dlbjoE9a0clM6QIl1nY9+ct9wnNCXds1NnctKveUzDqIJ5XBcm/A==",
+      "path": "opentk.openal/4.7.5",
+      "hashPath": "opentk.openal.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.redist.glfw/3.3.8.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dYk7CJ+eOKHVn5IPKCBzmRDHcDy6+oy0fxPntTcl48+NTmOf15e2vKtF9BM7vQFWA8UFmT09Zk05mNHYa3zYWA==",
+      "path": "opentk.redist.glfw/3.3.8.30",
+      "hashPath": "opentk.redist.glfw.3.3.8.30.nupkg.sha512"
+    },
+    "OpenTK.Windowing.Common/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vEO4MgZX1sarZ0q2wgySn0lKunqCTIX2pk/alO76sNZ3vh8lrQsAv+n9qUynD5JRxESiox0HktYxPoIkeUej4A==",
+      "path": "opentk.windowing.common/4.7.5",
+      "hashPath": "opentk.windowing.common.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.Windowing.Desktop/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8yfpN501XAGfNmxE6Ys/RxokVe1WiyeeiYR6uUjUkJUYf4W9rpK2tZqpspGoHjzL5Io1zo7XIKaW1T8S4NK2AQ==",
+      "path": "opentk.windowing.desktop/4.7.5",
+      "hashPath": "opentk.windowing.desktop.4.7.5.nupkg.sha512"
+    },
+    "OpenTK.Windowing.GraphicsLibraryFramework/4.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zBSlfqgmtRZD41XlWVKbArtStLjOlvhMIaS6ETbYdbp6Nl/m3oPqnOGegfP12lFe2FvxBq/nRGgaNiQ/VSVPRg==",
+      "path": "opentk.windowing.graphicslibraryframework/4.7.5",
+      "hashPath": "opentk.windowing.graphicslibraryframework.4.7.5.nupkg.sha512"
+    },
+    "protobuf-net/3.1.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vej8g3+5KpwuwA20xoOMJK9nUM/hr7maSu56pIqItmX28JbXF0co1/pD6Mg84+mhLYRQpKiSlOxIDvtaYojKWA==",
+      "path": "protobuf-net/3.1.25",
+      "hashPath": "protobuf-net.3.1.25.nupkg.sha512"
+    },
+    "protobuf-net.Core/3.1.25": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LqDpeU+rbzO/uD2iYUBIGCgaeCBrxwmCDGVmUNZ67yShrGLlLJHwFMcDsGZUCxE2iHdRJawMUkTfs3HYIXiqWg==",
+      "path": "protobuf-net.core/3.1.25",
+      "hashPath": "protobuf-net.core.3.1.25.nupkg.sha512"
+    },
+    "SixLabors.Fonts/1.0.0-beta19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ECJoayRT54VkJNoKBwZZllGvBIvxmnUFXsUCqHU8uAjAFrcdtxNpQ5Auyzw3d4+B+Q3KivKIrd7uO0qiNx/glg==",
+      "path": "sixlabors.fonts/1.0.0-beta19",
+      "hashPath": "sixlabors.fonts.1.0.0-beta19.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/2.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8yonNRWX3vUE9k29ta0Hbfa0AEc0hbDjSH/nZ3vOTJEXmY6hLnGsjDKoz96Z+AgOsrdkAu6PdL/Ebaf70aitzw==",
+      "path": "sixlabors.imagesharp/2.1.3",
+      "hashPath": "sixlabors.imagesharp.2.1.3.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp.Drawing/1.0.0-beta15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HMb/JNtNsSOr0lh71s5jD4Bv7sUwTxhGz2fOtuXcInQ4p9SB+1oEY3I6PrKXHpOCKaYArLD5r/4mA8t0dT/M5A==",
+      "path": "sixlabors.imagesharp.drawing/1.0.0-beta15",
+      "hashPath": "sixlabors.imagesharp.drawing.1.0.0-beta15.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
+      "path": "system.text.encoding.codepages/5.0.0",
+      "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
+    }
+  }
+}

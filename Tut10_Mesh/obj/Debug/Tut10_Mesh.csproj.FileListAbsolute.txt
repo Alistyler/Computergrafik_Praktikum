@@ -1,0 +1,12 @@
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\bin\Debug\Tut10_Mesh.deps.json
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\bin\Debug\Tut10_Mesh.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\bin\Debug\Tut10_Mesh.pdb
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\Tut10_Mesh.csproj.AssemblyReference.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\Tut10_Mesh.GeneratedMSBuildEditorConfig.editorconfig
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\Tut10_Mesh.AssemblyInfoInputs.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\Tut10_Mesh.AssemblyInfo.cs
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\Tut10_Mesh.csproj.CoreCompileInputs.cache
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\Tut10_Mesh.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\refint\Tut10_Mesh.dll
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\Tut10_Mesh.pdb
+D:\Ali\HFU\Second\Unterricht\Computergrafik\Praktikum\Echtzeit\GitHub\ComputergrafikMIB - Kopie\Tut10_Mesh\obj\Debug\ref\Tut10_Mesh.dll
