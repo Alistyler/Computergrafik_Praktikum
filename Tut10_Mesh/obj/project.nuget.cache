@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6unBsMMF2w+sSJSo8/x9XDJrO+ri0fNRR1wdmzw0efn1oyPqi/jYXUA+YBrofqxPxxYvCzbHR5N6irk1lf8nPQ==",
+  "dgSpecHash": "MEkfqOtcDJQvK9bl9nn73YgjShmn4bCqz/OAfZcfQz/yvxlPxmr1fd+WJhgCnmgFx3zzUcZQ7oztDs3eSo6wSA==",
   "success": true,
-  "projectFilePath": "D:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB - Kopie\\Tut10_Mesh\\Tut10_Mesh.csproj",
+  "projectFilePath": "D:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB_Kopie\\Tut10_Mesh\\Tut10_Mesh.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aliha\\.nuget\\packages\\communitytoolkit.diagnostics\\8.0.0\\communitytoolkit.diagnostics.8.0.0.nupkg.sha512",
     "C:\\Users\\aliha\\.nuget\\packages\\fusee.base.common\\0.13.0\\fusee.base.common.0.13.0.nupkg.sha512",

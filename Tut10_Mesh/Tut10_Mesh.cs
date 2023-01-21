@@ -67,17 +67,6 @@ namespace FuseeApp
 
                             // MESH COMPONENT
                             new CylinderMesh(5, 10, 8)
-
-                            /*Triangles: Ein Würfel hat 6 Faces. Diese Faces lassen sich in Triangles (Dreiecke) aufteilen, weil die Grafikkarte so funktioniert. Hier sind 36 Triangles.
-                                         Die Werte von den Triangles sind Verweise auf die Indezes der Vertices. Drei Werte bilden einen Dreieck.
-                                         Lösung: Da Vertices 24 Indezes haben, kommt man auf die 36 Indezes bei den Triangles.*/
-
-                            /*Vertices: Ein typischer Würfel hat 8 Vertices. Aber hier hat es den 3-fachen Wert. Manche Punkte sind doppelt angegeben (s. Debugmode>Watch>(Variable eingeben))
-                                        Lösung: Die 24 Indezes sind da, weil drei Normals eine Vertex besetzen. Da man einen Wert zuordnen kann, erstellt man drei überlappende Vertecies für die drei Normals.
-                                        Wenn man nur eine Normale zu einem Vertex hinzufügt, sieht das so aus wie ein Würfel im Smooth Shader in Blender.*/
-
-                            /*Normals: Einen Normale ist ein Vektor. Diese steht orthogonal senkrecht zur Fläche. Diese sorgt dafür in welche Richtung die Fläche zeigt.
-                                        Die Normals sind Eigenschaften des Cubes und gehören zu den Vertices.*/
                         }
                     },
                 }
@@ -91,8 +80,6 @@ namespace FuseeApp
 
             // Create a scene renderer holding the scene above
             _sceneRenderer = new SceneRendererForward(_scene);
-
-            // RC.SetRenderState(RenderState.FillMode, (uint)FillMode.wireframe, true);
         }
 
         // RenderAFrame is called once a frame

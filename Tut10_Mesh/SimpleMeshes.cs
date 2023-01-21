@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -120,9 +120,9 @@ namespace FuseeApp
         public CylinderMesh(float radius, float height, int segments) 
         { 
             // Speicherplätze für Vertices, Normals und Trainagles reservieren
-            float3[] verts = new float3[segments+1];
-            float3[] norms = new float3[segments+1];
-            uint[] tris = new uint[segments * 3];
+            float3[] verts = new float3[4 * segments + 2];
+            float3[] norms = new float3[4 * segments + 2];
+            uint[] tris = new uint[4 * 3 * segments];
 
             // Punkt auf der x - Achse als ersten Punkt in den Array
             verts[0] = new float3(radius, 0, 0);
@@ -140,14 +140,32 @@ namespace FuseeApp
                 verts[i] = new float3(radius * (float) Math.Cos(i * delta), 0, radius * (float) Math.Sin(i * delta));
                 norms[i] = new float3(0, 1, 0);
 
-                // Ein neues Dreieck (Kuchenstück) einfügen
-                tris[3 * i - 1] = (uint) segments; // Vertex, der im vorangegangenen Schleifendurchlauf (i - 1) eingfürgt wurde.
-                tris[3 * i - 2] = (uint) i; // Vertex, der im aktuellen Schleifendurchlauf (i) eingefügt wurde
-                tris[3 * i - 3] = (uint) (i - 1); // Allerletzter Punkt im Vertex - Array
+                // Mantel vom Zylinder
+                verts[i] = new float3((float) Math.Cos(i * delta), 0, (float) Math.Sin(i* delta));
+                norms[i] = new float3((float) Math.Cos(i * delta), 0, (float) Math.Sin(i* delta));
+
+                // Dreieck oben
+                tris[12 * (i - 1)] = (uint) (4 * segments);           // Mittelpunkt oben
+                tris[12 * (i - 1) + 1] = (uint) (4 * i);              // aktueller obiger Segmentpunkt
+                tris[12 * (i - 1) + 2] = (uint) (4 * (i - 1));        // vorheriger Segmentpunkt oben
+                // seitlicher Dreieck 1
+                tris[12 * (i - 1) + 3] = (uint) (4 * (i - 1) + 2);        // vorheriger tiefer Punkt 
+                tris[12 * (i - 1) + 4] = (uint) (4 * i + 2);              // aktueller tiefer Punkt
+                tris[12 * (i - 1) + 5] = (uint) (4 * i + 1);              // vorheriger obiger Punkt
+
+                // seitliches Dreieck 2
+                tris[12 * (i - 1) + 6] = (uint) (4 * (i - 1) + 2);        // vorheriger tiefer Punkt
+                tris[12 * (i - 1) + 7] = (uint) (4 * i + 1);              // aktueller tiefer Punkt
+                tris[12 * (i - 1) + 8] = (uint) (4 * (i - 1) + 1);        // vorheriger obiger Punkt
+
+                // Dreieck unten
+                tris[12 * (i - 1) + 9]  = (uint) (4 * segments + 1);      // Mittlepunkt unten
+                tris[12 * (i - 1) + 10] = (uint) (4 * (i - 1) + 3);       // aktueller Segmentpunkt unten
+                tris[12 * (i - 1) + 11] = (uint) (4 * i + 3);             // vorheriger Segmentpunkt unten
             }
 
             // Letztes Dreieck im tris Array eintragen (letzter Punkt mit ersten Punkt und Mittelpunkt)
-            tris[(segments * 3) - 1] = (uint) segments;
+            tris[(segments * 3) - 1] = (uint) segments;         
             tris[(segments * 3) - 2] = (uint) 0;
             tris[(segments * 3) - 3] = (uint) (segments - 1);
 
@@ -156,7 +174,7 @@ namespace FuseeApp
                 Kreis oben      Normal zur Seite
                 Kreis unten     Normal zur Seite
                 Kreis unten     Normal nach unten
-                Und von vorn    Und von vorn
+                Reapeat         Repeat
             */
 
             /* Tris (Für vier Dreiecke(einen oben, zwei an der Seite*, einen unten) braucht man 12 Einträge beginnend mit i = 1 *Ein Viereck ergibt sich aus zwei Dreiecke*/
@@ -164,8 +182,7 @@ namespace FuseeApp
             //Erster Array Eintrag: (0, h/2, 0), Normals: (0, 1, 0)
             //Letzter Array Eintrag (0, -(h/2). 0), Normals: (0, -1, 0)
 
-
-            // Verschiebe alles zu den richtigen Mesh Variablen
+            
             Vertices = new MeshAttributes<float3>(verts);
             Normals = new MeshAttributes<float3>(norms);
             Triangles = new MeshAttributes<uint>(tris);

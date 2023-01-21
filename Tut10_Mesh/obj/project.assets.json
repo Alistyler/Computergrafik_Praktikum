@@ -1509,11 +1509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB - Kopie\\Tut10_Mesh\\Tut10_Mesh.csproj",
+      "projectUniqueName": "D:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB_Kopie\\Tut10_Mesh\\Tut10_Mesh.csproj",
       "projectName": "Tut10_Mesh",
-      "projectPath": "d:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB - Kopie\\Tut10_Mesh\\Tut10_Mesh.csproj",
+      "projectPath": "D:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB_Kopie\\Tut10_Mesh\\Tut10_Mesh.csproj",
       "packagesPath": "C:\\Users\\aliha\\.nuget\\packages\\",
-      "outputPath": "d:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB - Kopie\\Tut10_Mesh\\obj\\",
+      "outputPath": "D:\\Ali\\HFU\\Second\\Unterricht\\Computergrafik\\Praktikum\\Echtzeit\\GitHub\\ComputergrafikMIB_Kopie\\Tut10_Mesh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aliha\\AppData\\Roaming\\NuGet\\NuGet.Config"
